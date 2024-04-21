@@ -8,7 +8,6 @@ import { UserModel } from 'src/db/models/user.model';
   path: 'users',
   version: '1',
 })
-@Controller('users')
 export class UsersController {
   constructor(private readonly usersService: UsersService) {}
   @Post('/')
